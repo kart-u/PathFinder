@@ -1,0 +1,21 @@
+.node{
+    display: inline-block;
+    height: 25px;
+    width: 25px;
+    border: 1px solid #9e9c9c;
+}
+.start{
+    background-color: #6B8E23;
+}
+.end{
+    background-color: #4682B4;
+}
+.wall{
+    background-color:#A52A2A;
+}
+.visited{
+    background-color: #ADD8E6;
+}
+.path{
+    background-color: #FFD700;
+}

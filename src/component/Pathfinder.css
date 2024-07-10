@@ -1,0 +1,36 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.grid{
+    line-height: 0.79;
+}
+.dropdown {
+    position: relative;
+    display: inline-block;
+    border-radius: 20px;
+}
+.dropdown-content{
+    display: none;
+    background-color: white;
+}
+.dropdown:hover .dropdown-content {display: grid;}
+.dropdown:hover .dropdown-content button:hover{
+    border-color: black;
+}
+.dropdown:hover .dropbtn{
+    border-radius: 0;
+}
+.dropbtn{
+    height: 40px;
+    width: 100px;
+}
+.visualize:hover,.showPath:hover,.reset:hover{
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    padding: 5px;
+    transition: 100ms
+}
+.visualize,.showPath,.reset{
+    transition: 100ms;
+}
